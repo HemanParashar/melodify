@@ -1,0 +1,112 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  color: white;
+  font-family:  sans-serif;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100vh;
+  width: 100vw;
+}
+
+#main{
+  padding: 1.32vh;
+  scrollbar-width: 0;
+  height: 160vh;
+  width: 100vw;
+  background-color: #000000;
+}
+.box{
+  border-radius:10px ;
+  background-color: #141414;
+}
+#box1{
+  height: 30vh;
+  width: 22.4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+.box1-content{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.box1-content img{
+  width: 30px;
+}
+.box1-text{
+  margin-left: 25px;
+}
+#box2{
+  height: 123.5vh;
+  margin-top: 1.32vh;
+  width: 22.4vw;
+}
+
+.header{
+  z-index: 50;
+  width: 22.4vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#box2-header-content-1st-line{
+  margin-top: 5px;
+  margin-left: 20px;
+}
+#library h4{
+  margin-left: 10px;
+}
+.artist{
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  font-size: larger;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.artist a{
+  text-decoration: none;
+}
+.artist img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.fa-instagram{
+  color: red;
+  position: absolute;
+  left: 16vw;
+}
+.fa-twitter{
+  color: red;
+  position: absolute;
+  left: 20vw;
+}
+
+#box3{
+  height: 155vh;
+  margin-left: 0.73vw;
+  width: 74.5vw;
+  /* background-color: aquamarine; */
+       
+}
+#box3_content{
+  margin-left: 50px;
+}
+#box3_content h2{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+
